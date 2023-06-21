@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+/* --------Start header----------- */
+.sec-one{
+    background-image: url(images/bg/header-bg.jpg);
+  
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.title{
+    text-align: center;
+    color: white;
+
+}
+.sec-one h2{
+   
+    font-size: 133px;
+    font-family: sans-serif;
+
+}
+.sec-one h4{
+    font-size: 55px;
+    font-weight: 100;
+    font-family: system-ui;
+
+}
+
+/* --------End header----------- */
+
+/* --------Start Section Two----------- */
+.sec-two{
+    width: 50%;
+    margin: 43px auto;
+    text-align: center;
+
+}
+
+.sec-two h2{
+    font-size: 20px;
+    font-size: 18px;
+    font-family: cursive;
+
+
+}
+.sec-two h2 span{
+color: #7b7b7b;
+}
+
+/* --------End Section Two----------- */
+
+/* --------Start Section Three----------- */
+.sec-three{
+    background-color: #eee;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.sec-title{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 100;
+    color: #000000a8;
+    font-family: math;
+
+}
+
+
+.sec-three .container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    padding: 33px;
+   /* flex-wrap: wrap; */
+}
+.sec-three .container .box{
+padding: 6px ;
+}
+
+.sec-three .container .box image{
+
+}
+
+.sec-three .container .box .box-content{
+
+}
+
+.sec-three .container .box-content h2{
+    font-size: 18px;
+    color: #000000a8;
+    margin: 4px 0;
+    font-family: monospace;
+    font-weight: 100;
+
+
+}
+.sec-three .container .box-content p{
+   
+    font-size: 15px;
+    font-family: math;
+    line-height: 1.7;
+    font-weight: 100;
+    color: #000000a8;
+
+}
+
+
+/* --------End Section Three----------- */
+
+/* --------Start Section Four----------- */
+
+.sec-four{
+    width: 100%;
+    background-color: #7b7b7b3d;
+}
+
+.sec-four .container{
+    display: flex;
+    width: 80%;
+    
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.sec-four .container .box{
+
+}
+.sec-four .container .box img{
+width: 130px;
+}
+.sec-four .box h2{
+    font-size: 18px;
+    color: #333;
+
+}
+/* --------End Section Four----------- */
+
+/* --------Start Section Five----------- */
+.sec-five{
+    background-image: url("images/bg/sec-works-bg.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 73vh;
+}
+
+.sec-five .sec-title{
+color: white;
+}
+
+.sec-five .container{
+    width: 80%;
+    margin: 75px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* --------End Section Five----------- */
+
+/* --------Start Section Seven----------- */
+.sec-seven{
+    background-color: #eee;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.sec-seven-para{
+    max-width: 60%;
+    text-align: x;
+    text-align: center;
+    margin: 50px auto;
+
+}
+
+.sec-seven p{
+    color: #000000a8;
+    font-size: 16px;
+    line-height: 1.4;
+
+}
+
+.sec-seven .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: auto;
+    /* gap: 7px; */
+    overflow: hidden;
+
+}
+
+.sec-seven .container .box{
+border: 1px solid black;
+}
+
+.sec-seven .container .box img{
+    padding: 10px;
+    border-radius: 50%;
+    width: 111px;
+
+}
+.sec-seven .container .box h3{
+    color: #7b7b7b;
+    font-family: sans-serif;
+    line-height: 1.4;
+
+}
+
+.sec-seven .container .box i{
+    color: #7b7b7b;
+    line-height: 1.5;
+}
+
+.sec-seven .container .box p{
+    font-size: 14px;
+    padding: 11px;
+    line-height: 1.8;
+    color: #7b7b7b;
+}
+
+.sec-seven .container .box .links{
+    background: black;
+    width: 50px;
+    height: 50px;
+    color: white;
+
+}
+.sec-seven .container .box .links a{
+
+}
+.sec-seven .container .box .links a i{
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* --------End Section Seven----------- */
